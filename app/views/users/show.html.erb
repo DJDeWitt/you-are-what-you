@@ -1,0 +1,11 @@
+
+<h3><%= @user[:title] %></h3>
+
+<ul>
+<% @user[:user_name].each_with_index do |user, index| %>
+  <li>
+    <h4><%= @user[:user_name][index] %> (<%= @user[:user_username][index] %>)</h4>
+    <p><%= @user[:user_bio][index] %></p>
+  </li>
+<% end %>
+</ul>

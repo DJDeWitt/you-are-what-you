@@ -1,0 +1,56 @@
+<h1>Follower Ids</h1>
+
+
+<h3>Immediate Experts You follow</h3>
+
+
+<h3>
+  <%= @g_id %>
+</h3>
+<h3>
+  <%= @g_screen %>
+</h3>
+<h3>
+  <%= @g_name %>
+</h3>
+
+<h3>
+  <%= @g_profile_image %>
+</h3>
+
+
+
+<ol>
+  <% #@intersection.each do |inter| %>
+    <li><%# inter %></li>
+  <% #end %>
+</ol>
+
+<h4>Experts that your expert friends follow</h4>
+
+<ol>
+  <% #@intersection.each do |inter| %>
+    <!-- <li> -->
+      <% #inter %>
+    <!-- </li> -->
+  <% #end %>
+</ol>
+
+
+<section id="tweets">
+  <ol>
+    <% #@tweets.each do |tweet| %>
+      <!-- <li> -->
+        <% #link_to tweet.text, "https://www.twitter.com/#{tweet.user.screen_name}" %>
+      <!-- </li> -->
+    <% #end %>
+  </ol>
+
+  <ol>
+    <% #@more_tweets.each do |tweet| %>
+      <!-- <li> -->
+        <% #link_to tweet.text, "https://www.twitter.com/#{tweet.user.screen_name}" %>
+      <!-- </li> -->
+    <% #end %>
+  </ol>
+</section>
